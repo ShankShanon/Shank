@@ -1,0 +1,295 @@
+/*     font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Nunito Sans', sans-serif; */
+
+/* Base Rules */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.r-btn{
+  padding: 5px 20;
+  background: #130f40 !important;
+  color: #f8f9fa !important;
+  
+}
+
+.bg{
+  background: #d1d8e0 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: #6c757d;
+}
+.r-p {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+/*Navigation */ 
+/* nav.r-nav {
+  background: transparent;
+  padding: 20px 0;
+  transition: 0.5s all;
+}
+nav.navbar-brand {
+  font-size: 30px;
+  color: white;
+  transition: 0.5s all;
+}
+
+nav .navbar-nav li a {
+  color: rgba(255, 255, 255, 0.8) !important;
+  font-size: 16px;
+  letter-spacing: 0.05m;
+  font-weight: 700;
+  font-family: "nunito", sans-serif;
+}
+
+nav .navbar-nav li {
+  margin-left: 15px;
+}
+
+nav.r-nav.stickyadd {
+  background: white !important;
+  padding: 15px 0;
+  box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.25);
+  transition: 0.5s all ease-in-out;
+}
+
+nav.stickyadd .navbar-brand {
+  color: black;
+  font-size: 40px;
+  transition: 0.5s all;
+}
+
+nav.stickyadd .navbar-nav .nav-link {
+  color: #000 !important;
+}
+
+.navbar #hamburger {
+  color: white;
+}
+nav.stickyadd .hamburger {
+  color: #000;
+} */
+
+
+
+
+nav .navbar-nav a{
+  color: #ffffff;
+
+}
+
+
+
+
+nav .navbar-nav {
+  color: rgba(255, 255, 255, 0.8) !important;
+  font-size: 16px;
+  letter-spacing: 0.05m;
+  font-weight: 700;
+  font-family: "nunito", sans-serif;
+ 
+}
+
+
+
+nav.r-nav.stickyadd {
+  background: white !important;
+  padding: 15px 0;
+  box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.25);
+  transition: 0.5s all ease-in-out;
+}
+
+nav.stickyadd .navbar-brand {
+  color: black;
+  font-size: 40px;
+  transition: 0.5s all;
+}
+
+nav.stickyadd .navbar-nav .nav-link {
+  color: #000 !important;
+}
+
+.navbar {
+  color: white;
+}
+nav.stickyadd  {
+  color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Header section */
+
+header {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 5, 10, 0.5)),
+    url("/images/mine (2).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header-content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-box {
+  max-width: 700px;
+  color: white;
+}
+
+.content-box h4 {
+  font-size: 30px;
+}
+.content-box h1 {
+  font-size: 52px;
+}
+.content-box a {
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 5px 25px;
+}
+
+.content-box a:hover {
+  color: black;
+  background: white;
+  transition: 0.5s all;
+}
+
+.content-box p {
+  color: white;
+}
+
+/* About Me Section */
+.about li img {
+  color: black;
+  display: inline;
+  height: 3em;
+  width: 3em;
+  font-size: 20px;
+  border: 2px solid #d4d4d4;
+  border-radius: 50%;
+  line-height: 5px;
+  transition: 0.5s all;
+  text-align: center;
+}
+#nodec:hover {
+  color: black;
+  background: #a9f6f2;
+  transition: 0.5s all;
+}
+#nodec {
+  text-decoration: none;
+  color: black;
+  display: inline;
+  height: 3em;
+  width: 3em;
+  font-size: 20px;
+  border: 2px solid #d4d4d4;
+  border-radius: 50%;
+  line-height: 5px;
+  transition: 0.5s all;
+  text-align: center;
+}
+
+
+/* Experience Section */
+.exp-class .progress-class {
+  height: 10px;
+  border-radius: 20px;
+  font-size: 10px;
+}
+
+
+
+/* .progress-bar{
+  background-color: #EE8683 !important;
+} */
+#html-clr{
+  background-color: #e67e22 !important;
+}
+#css-clr{
+  background-color: #3498db !important;
+}
+#bts-clr{
+  background-color: #8e44ad !important;
+}
+#js-clr{
+  background-color: #f1c40f !important;
+}
+#wp-clr{
+  background-color: #2c3e50 !important;
+}
+
+
+.exp-class label {
+  font-size: 20px;
+  margin: 10px;
+}
+
+/* Service section */
+#services-id{
+  margin-top: 100px;
+}
+.bg-sec{
+  background: #ecf0f1;
+  
+}
+
+.card, .card-header {
+  background: #f8f9fa !important;
+}
+
+.card-header {
+  border: none !important;
+}
+
+.services-class .card-header img {
+  font-size: 50px;
+}
+
+.service-border{
+  height: 2px;
+  width: 40px;
+  margin: 15px auto;
+  background: #e65f78;
+}
